@@ -1,6 +1,6 @@
 Setup and verification scripts for DNE library.
 
-First run the 00-create-environmnet.sh script with a target directory where you would like the devenet express files located. 
+First run the 00-create-environment.sh script with a target directory where you would like the devenet express files located. 
 
 This will setup a directory, create a virtual python environment and download the respository from git.
 

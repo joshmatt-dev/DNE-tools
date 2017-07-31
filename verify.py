@@ -93,6 +93,8 @@ def main(sparkToken):
 
     checkPostman = check_dir("/Applications/Postman.app/Contents/MacOS/", "Postman")
 
+    ## TODO - Update postman check for cross-platform support
+
     checkModules = check_modules()
 
     checkSpark = check_spark(sparkToken)
@@ -117,6 +119,5 @@ if __name__ == "__main__":
     else:
         SPARK_TOKEN = sys.argv[1]
         main(SPARK_TOKEN)
-
 
 
